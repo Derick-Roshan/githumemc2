@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* HEADER */
+
+* {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 100px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+}
+
+header .header-brand {
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: 800;
+    display: block;
+    padding: 20px 0;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 100;
+    display: block;
+    padding: 0 20px;
+}
+
+.header-cases {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    header .header-brand {
+        margin: 25px;
+        float: left;
+        border-right: 4px solid #111;
+        line-height: 50px;
+        padding: 0px 20px;
+    }
+
+    header nav ul {
+        margin: 0 auto;
+        float: left;
+    }
+
+    
+    header nav ul li a {
+        margin-left: 20px;
+        line-height: 100px;
+        padding: 0px 30px;
+    }
+
+    header nav ul li a:hover {
+        color: red;
+    }
+
+    .header-cases {
+        margin: 29px 60px;
+        display: block;
+        float: right;
+        border: 1px solid #111;
+        color: #111;
+        font-family: arial;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        line-height: 20px;
+    }
+    
+    .header-cases:hover {
+        color: red;
+    }
+}
+
+/* HEADER END */
+
+.img-banner {
+    display: none;
+}
+
+.writings {
+    width: 100%;
+}
+
+.writings h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: arial;
+    padding: 30px 30px 20px;
+}
+
+.writings p {
+    font-family: arial;
+    padding: 0 30px;
+    padding-bottom: 20px;
+    line-height: 30px;
+
+}
+
+.img-bike {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .img-banner {
+        display: block;
+        width: 100%;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        width: 620px;
+    }
+
+    .writings h2 {
+        font-size: 30px;
+    }
+    
+    .writings p {
+        font-size: 30px;
+        padding: 0 30px;
+        padding-bottom: 20px; 
+        line-height: 40px;  
+    
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+
+        margin: 0 auto;
+        width: 1300px;
+    }
+
+    .writings {
+        width: 50%;
+        float: right;
+    }
+
+    .writings h2 {
+        font-size: 30px;
+        padding: 20px 0 0 30px;
+    }
+    
+    .writings p {
+        font-size: 20px;
+        padding: 20px 0 0 30px;
+    
+    }
+
+
+    .img-bike {
+        width: 50%;
+        float: left;
+        padding-top: 20px;
+
+    }
+
+}
+
+
